@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 namespace _6kyu.Test
 {
-    public class AreTheySameTests
+    public class FindParityOutlinerTest
     {
 
 
