@@ -9,7 +9,7 @@ namespace _7kyu
     {
         public static bool ValidatePin(string pin)
         {
-            return Regex.IsMatch(pin, @"^(\d{6}|\d{4})\z");
+            return Regex.IsMatch(pin, @"^(\d{6}|\d{4})\z");  // cover test case with newline as well
 
             // Without using regex
             //return pin.All(n => Char.IsDigit(n)) && (pin.Length == 4 || pin.Length == 6);
